@@ -1,0 +1,92 @@
+:root {
+    --baseColor: #f5f5f5;
+    --backgroundColor: #fff;
+    --fontColor: #1f1f1f;
+    --lineColor: #818181;
+    --greyColor: #e5e5e5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Nunito", sans-serif
+}
+
+body {
+    background-color: var(--baseColor);
+    width: 100%;
+    height: auto;
+    color: var(--fontColor);
+}
+
+h3 {
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px ;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: var(--backgroundColor);
+    padding: 2rem 1rem ;
+    box-shadow: rgba (99,99,99,0.2) 0px 2px 8px 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.header-name {
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding-top: 0.5 rem;
+    text-align: center;
+}
+
+.header-job {
+    letter-spacing: 1;
+    padding-bottom: 0.5 rem;
+}
+
+
+.divider {
+    margin: 1rem 2rem;
+    width: 90%;
+    border: 1px solid var(--lineColor)
+
+}
+
+.datos {
+    letter-spacing: 1;
+    padding-bottom: 0.5 rem;
+    text-align: left;
+}
+
+.centrado {
+    text-align: justify;
+}
